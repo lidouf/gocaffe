@@ -17,7 +17,7 @@ import (
 	_ "net/http/pprof"
 
 	"github.com/xlvector/dlog"
-	"github.com/xlvector/gocaffe"
+	"github.com/lidouf/gocaffe"
 )
 
 const (

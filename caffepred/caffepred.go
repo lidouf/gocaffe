@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"flag"
 	"fmt"
-	"github.com/xlvector/gocaffe"
+	"github.com/lidouf/gocaffe"
 	"io/ioutil"
 	"log"
 	"net/http"

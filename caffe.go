@@ -16,7 +16,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/xlvector/dlog"
+	//"github.com/xlvector/dlog"
+	"fmt"
 )
 
 type CaffePredictor struct {
@@ -113,6 +114,6 @@ func (p *CaffePredictor) PredictBatch(imgs []string) [][]float64 {
 		out := p.Predict(img)
 		ret = append(ret, out)
 	}
-	dlog.Println("predict all used(ms) : ", (time.Now().UnixNano()-start)/1000000)
+	fmt.Printf("predict all used(ms) : %d\n", (time.Now().UnixNano()-start)/1000000)
 	return ret
 }

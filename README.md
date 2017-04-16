@@ -1,6 +1,6 @@
 # gocaffe
 
-Implement caffe prediction by golang use CGO.
+Implement caffe prediction by golang use CGO. This project is forked from [xlvector's gocaffe project](https://github.com/xlvector/gocaffe.git).
 
 you can test by:
 
